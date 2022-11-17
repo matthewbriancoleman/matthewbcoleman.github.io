@@ -1,0 +1,48 @@
+name: 'Matthew Coleman'
+output_dir: '.'
+navbar:
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "Projects"
+      href: projects.html
+    - text: "About"
+      href: about.html
+    - text: "Resume"
+      href: resume.html
+    - text: "Contact Me"
+      href: contact.html
+    - text: "GIS Work"
+      href: geog176A.html
+    # ========= BELOW IS HOW TO DO A DROPDOWN MENU FROM A TAB ==== USEFUL FOR PROJECTS TAB WHERE THERE ARE MULTIPLE PROJECTS ========== #
+    # - text: "More"
+    # icon: fa-gear
+    # menu:
+    #   - text: "Heading 1"
+    #   - text: "Page A"
+    #     href: page_a.html
+    #   - text: "Page B"
+    #     href: page_b.html
+    #   - text: "---------"
+    #   - text: "Heading 2"
+    #   - text: "Page C"
+    #     href: page_c.html
+    #   - text: "Page D"
+    #     href: page_d.html
+  right: 
+    - icon: fa-github
+      href: https://github.com/matthewbcoleman
+    - icon: fa-envelope
+      href: mailto:coleman.matthew.b@gmail.com
+    - icon: fa-linkedin-square
+      href: https://www.linkedin.com/in/matthewbriancoleman/
+      
+output: 
+  html_document:
+    theme: paper
+    css: main.css
+    includes:
+      after_body: footer.html
+
+

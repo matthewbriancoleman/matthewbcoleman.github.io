@@ -1,0 +1,80 @@
+---
+title: GIS Work 
+output: 
+  html_document
+
+---
+
+<center>
+![](geog_img/mission-creek-fim.gif)
+</center>
+
+In the summer of 2020, I took a course, Geography 176A - *Introduction to Geographic Information Systems and Science* - Where I was able to apply my knowledge in R in the realm of spatial data. Highlights from the course include:
+
+**************************
+
+## [Building a Project Website](https://matthewbcoleman.github.io/)
+
+- In this lab I built a webpage using only Rmarkdown and the resulting .html files from the knitting.
+- Learned how to use different types of YAML commands.
+- Learned how to create a navbar (super useful) to navigate between my different pages.
+
+<br>
+
+## [Exploring COVID-19 Trends](https://matthewbcoleman.github.io/geog-176A-labs/lab-02.html)
+
+<center>
+![](geog_img/lab-02.png){width=40% height=40%}
+</center>
+
+- In this lab I conducted an investigation into COVID-19 case trends.
+- Learned how to create faceted plot to show trends by group.
+- Learned the beginnings of mapping in R with ggplot. 
+
+<br>
+
+## [Distances and Projections](https://matthewbcoleman.github.io/geog-176A-labs/lab-03.html)
+
+<center>
+![](geog_img/lab-03.png){width=40% height=40%}
+</center>
+
+- Analysis and mapping of cities based on different criteria including distance to US, state, MX, and CA border.
+- Learned how to map in ggplot using `geom_sf`
+- Learned how to highlight features of interest using `gghighlight` and label points neatly with `ggrepel`
+
+<br>
+
+## [Tesselations and Webmapping in R](https://matthewbcoleman.github.io/geog-176A-labs/lab-04.html)
+
+<center>
+![](geog_img/lab-04.png){width=40% height=40%}
+</center>
+
+- Worked with a variety of tessellations including voronoi, triangulated, grid, and hex grid.
+- Showed how different tessellations can cause Modifiable Areal Unit Problem (MAUP), resulting in biased maps.
+- Explored US Dam characteristics in different tesselations in `ggplot` and through `leaflet` webmapping.
+
+<br>
+
+## [Identifying Flooding Through K-Means and Landsat Band Combination](https://matthewbcoleman.github.io/geog-176A-labs/lab-05.html)
+
+<center>
+![](geog_img/lab-05.png){width=40% height=40%}
+</center>
+
+- Used Landsat band combination to create indexes which can be used to distinguish water from land.
+- Created a K-Means algorithm which used landsat bands to determine water features from land features.
+- Plotted rasters of flooding areas and water flood uncertainty in OpenStreetMap and base R. 
+
+<br>
+
+## [Raster Analysis of Flooding in Santa Barbara](https://matthewbcoleman.github.io/geog-176A-labs/lab-06.html)
+<center>
+![](geog_img/mission-creek-fim.gif){width=40% height=40%}
+</center>
+- Explored Santa Barbara Basin and Mission Creek River System.
+- Used Terrain Analysis to create Elevation, Hillshade, and *Height Above Nearest Drainage* (HAND) rasters. 
+- Visualized 2017 Santa Barbara Flood Incident, including flood area, flood depth, and affected buildings.
+- Created Animation showing affected buildings and flood area for different river flood heights
+
