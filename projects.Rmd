@@ -6,8 +6,11 @@ output:
     toc_float: true
     toc_collapsed: true
 ---
-```{r, echo = FALSE}
-library(icon)
+```{r, echo = FALSE, results = 'hide', message = FALSE  }
+#install.packages("devtools")
+#devtools::install_github("ropenscilabs/icon")
+
+library(icons)
 ```
 
 <br> 
@@ -16,27 +19,10 @@ library(icon)
 
 ***
 
-### Online Shoe Store Product Information Scraper <i class="fab fa-python"></I>
+### User Profile Related Skill Association Rule Mining <i class="fab fa-python"></I>
 
-I am currently working on a scraper which gets information (price, shoe type, reviews, etc.) from running shoes on runningwarehouse.com. This data could then be used to create a running shoe recommender system or to determine the most important features of a shoe based on reviews.
+### Sensitive Information Detector <i class="fab fa-python"></I>
 
-
-### Simple California Wildfire Map Shiny App <i class="fab fa-r-project"></I> ([App](http://matthewbriancoleman.shinyapps.io/CaliforniaWildfireMap))
-
-<center>
-![](proj_img/fire.jpeg){width=35% height=35%}
-![](proj_img/fireapp.png){width=40% height=40%}
-</center>
-
-<center>
-[App](http://matthewbriancoleman.shinyapps.io/CaliforniaWildfireMap)
-and
-[Code](https://github.com/matthewbcoleman/wildfireapp)
-</center>
-
-Using [NASA's VIIRS I-Band 375m Active Fire Data](https://earthdata.nasa.gov/earth-observation-data/near-real-time/firms/viirs-i-band-active-fire-data) and county borders for California, this app uses ggplot and plotly to create an interactive daily map of wildfires in California. 
-
-<br>
 
 ```{r, include = F}
 ### Machine Learning Shiny App <i class="fab fa-r-project"></I>
@@ -133,6 +119,22 @@ In this project, we analyzed pitch data on D1 baseball curveball pitches through
 
 
 <br> 
+
+### Simple California Wildfire Map Shiny App <i class="fab fa-r-project"></I> 
+
+<center>
+![](proj_img/fire.jpeg){width=35% height=35%}
+![](proj_img/fireapp.png){width=40% height=40%}
+</center>
+
+<center>
+
+[Code](https://github.com/matthewbcoleman/wildfireapp)
+</center>
+
+Using [NASA's VIIRS I-Band 375m Active Fire Data](https://earthdata.nasa.gov/earth-observation-data/near-real-time/firms/viirs-i-band-active-fire-data) and county borders for California, this app uses ggplot and plotly to create an interactive daily map of wildfires in California. 
+
+<br>
 
 ### Batting Point of Contact Analysis <i class="fab fa-r-project"></I>
 
