@@ -19,10 +19,9 @@ library(icons)
 
 ***
 
-### User Profile Related Skill Association Rule Mining <i class="fab fa-python"></I>
+### (SAP) SAP S4/HANA Cloud, Public Edition Guided Implementation
 
-### Sensitive Information Detector <i class="fab fa-python"></I>
-
+Working on innovations to SAP S/4HANA Cloud, Public Edition to increase customer adoption by mid and small-market customers. The Guided Implementation project allows customers to onboard their S/4HANA Public Cloud system in 7 days, as opposed to a baseline of 37 days (500% improvement). Working with PM's to create requirements, write user stories, and drive product creation. Researching possible integration of Knowledge Graphs into the  guided implementation process to further increase the ease and efficiency of the S/4HANA Cloud onboarding process.
 
 ```{r, include = F}
 ### Machine Learning Shiny App <i class="fab fa-r-project"></I>
@@ -43,6 +42,16 @@ library(icons)
 # **Past Projects**
 
 ***
+
+### (SAP) User Profile Related Skill Association Rule Mining <i class="fab fa-python"></I>
+
+Used Association Rule mining in Python and PySpark to create a related skill algorithm which presents user's job profiles with skills related to the skill set they have input into their profile. This allowed users to enrich their job profiles, resulting in finding better opportunities in their company which are fit to their skill set, passions, and career desires.
+
+This project allowed me to leverage parallel computing through a Databricks AWS clusters, resulting in a 300% increase in data querying speed when serving related skills to users.
+
+### (SAP) Sensitive Information Detector <i class="fab fa-python"></I>
+
+Used SpaCy to develop a Named Entity Recognition (NER) model which could detect personal name, phone number, and organization entities in a document, increasing person F1 score from 76% to 93.6%. This product is used by customers to give them a clear view of the data in their hyperscalers, and allow them to create policies to manage their hyperscalers based on the data present in the resources.
 
 ### Twitter Hate Speech Classifier in Pyspark <i class="fab fa-python"></I>
 

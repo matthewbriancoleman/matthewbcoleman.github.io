@@ -3,10 +3,10 @@ layout: default
 title: Contact Me 
 ---
 
-I can be reached most easily through email and LinkedIn, Links to both
+I can be reached most easily through email and LinkedIn. Links to both
 and my GitHub are below:
 
 -   [Email](mailto:coleman.matthew.b@gmail.com)
 -   [LinkedIn](https://www.linkedin.com/in/matthewbriancoleman/)
--   [Github](https://https://github.com/matthewbcoleman)
+-   [Github](https://github.com/matthewbcoleman)
 

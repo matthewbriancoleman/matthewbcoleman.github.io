@@ -6,7 +6,7 @@ title: Resume
 -   Languages: R, Python, Spark (PySpark, Sparklyr), SQL, C++, SAS.
 -   Visualization: Matplotlib, Seaborn, ggplot2, R graphics, Tableau.
 -   Analysis: scikit-learn, caret, RStan, tidyverse, Pandas, NumPy.
--   Development: Markdown, GitHub, MS Office, Google Suite, Elementary
+-   Development: Databricks, Markdown, GitHub, MS Office, Google Suite, Elementary
     proficiency with HTML and CSS.
 -   Mapping: `sf`, `raster`, `leaflet`, `OpenStreetMap`, `whitebox`.
 

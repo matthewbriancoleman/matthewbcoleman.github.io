@@ -9,6 +9,8 @@ output:
 ![](geog_img/mission-creek-fim.gif)
 </center>
 
+<!---
+
 In the summer of 2020, I took a course, Geography 176A - *Introduction to Geographic Information Systems and Science* - Where I was able to apply my knowledge in R in the realm of spatial data. Highlights from the course include:
 
 **************************
@@ -20,6 +22,9 @@ In the summer of 2020, I took a course, Geography 176A - *Introduction to Geogra
 - Learned how to create a navbar (super useful) to navigate between my different pages.
 
 <br>
+-->
+
+**************************
 
 ## [Exploring COVID-19 Trends](https://matthewbcoleman.github.io/geog-176A-labs/lab-02.html)
 
